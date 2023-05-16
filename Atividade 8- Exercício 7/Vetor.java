@@ -93,5 +93,13 @@ public class Vetor {
     public int preencher(){
         return (new Random().nextInt());
     }
+    public void geraVetorSequencial() {
+    }
+    public static boolean recursiveBinarySearch(int[] vetorTeste, int number2, int i, int j) {
+        return false;
+    }
+    public boolean itBinarySearch(int number) {
+        return false;
+    }
 }
 
