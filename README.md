@@ -18,6 +18,6 @@ Implementar o TAD PontoCartesiano em Java, criar um método construtor, getters 
 
 **Atividade 8- Exercício 7:** Utilizar o TAD Vetor e implemente um método recursivo para encontrar o maior elemento, implementar um método iterativo para esse fim também e utilizar algum método de cômputo de tempo para registrar o tempo de execução de cada um desses métodos para um vetor com 1000 números inteiros aleatórios.
 
-Atividade 08: Implementar o método de pesquisa binária com laço de repetição e outro método usando recursão, utilizar o TAD Vetor armazenando números inteiros e gerar um vetor aleatório com 1.000 elementos e submeta o mesmo vetor a ambos os métodos, computando o tempo para a pesquisa do último elemento armazenado no vetor.
+**Atividade 08:** Implementar o método de pesquisa binária com laço de repetição e outro método usando recursão, utilizar o TAD Vetor armazenando números inteiros e gerar um vetor aleatório com 1.000 elementos e submeta o mesmo vetor a ambos os métodos, computando o tempo para a pesquisa do último elemento armazenado no vetor.
 
 
