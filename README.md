@@ -3,7 +3,7 @@ Repositório para a resolução dos exercícios de Estrutura de Dados
 
 # Marco 1
 
-**Atividade  2- Exercício 1:[ Ponto Cartesiano](Atividade 2- Exercício 1)**
+**Atividade  2- Exercício 1:**
 Implementar o TAD PontoCartesiano em Java, criar um método construtor, getters e setters, criar um método que calcule a distância euclidiana entre dois pontos e testar esse TAD em uma classe Main.
 
 **Atividade 3- Exercício 2:** Criar uma classe Aluno, sobre o aluno devem ser guardados:Nome, Idade, Nota. Utilizar o TAD Vetor, adaptando-o para armazenar Alunos, adaptar os métodos “adiciona”, “tamanho” e “contem” para o contexto de Alunos.
