@@ -31,13 +31,6 @@ Implementar um TAD LDE genérica (Object), em seguida, fazer com que ela armazen
 
 Utilizar o TAD Vetor e implemente um método recursivo para encontrar o maior elemento, implementar um método iterativo para esse fim também e utilizar algum método de cômputo de tempo para registrar o tempo de execução de cada um desses métodos para um vetor com 1000 números inteiros aleatórios.
 
-**Atividade 08**
-
-Implementar o método de pesquisa binária com laço de repetição e outro método usando recursão, utilizar o TAD Vetor armazenando números inteiros e gerar um vetor aleatório com 1.000 elementos e submeta o mesmo vetor a ambos os métodos, computando o tempo para a pesquisa do último elemento armazenado no vetor.
-
-**Atividade 9** 
-
-Implementar os métodos de ordenação discutidos em aula, utilizar o TAD Vetor armazenando números inteiros, gerar um vetor aleatório com 1.000 elementos e submeter o mesmo vetor aos métodos de ordenação, computando o tempo da execução.
 
 # Exercícios Práticos P1
 **Lista**
@@ -50,6 +43,17 @@ vetores.
 
 **Questão 3:** Implemente, em Linguagem Java, um método que calcula o enésimo termo
 da série de Fibonacci.
+
+
+# Marco 2
+
+**Atividade 08**
+
+Implementar o método de pesquisa binária com laço de repetição e outro método usando recursão, utilizar o TAD Vetor armazenando números inteiros e gerar um vetor aleatório com 1.000 elementos e submeta o mesmo vetor a ambos os métodos, computando o tempo para a pesquisa do último elemento armazenado no vetor.
+
+**Atividade 9** 
+
+Implementar os métodos de ordenação discutidos em aula, utilizar o TAD Vetor armazenando números inteiros, gerar um vetor aleatório com 1.000 elementos e submeter o mesmo vetor aos métodos de ordenação, computando o tempo da execução.
 
 
 
