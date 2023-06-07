@@ -31,13 +31,6 @@ Implementar um TAD LDE genérica (Object), em seguida, fazer com que ela armazen
 
 Utilizar o TAD Vetor e implemente um método recursivo para encontrar o maior elemento, implementar um método iterativo para esse fim também e utilizar algum método de cômputo de tempo para registrar o tempo de execução de cada um desses métodos para um vetor com 1000 números inteiros aleatórios.
 
-**Atividade 08**
-
-Implementar o método de pesquisa binária com laço de repetição e outro método usando recursão, utilizar o TAD Vetor armazenando números inteiros e gerar um vetor aleatório com 1.000 elementos e submeta o mesmo vetor a ambos os métodos, computando o tempo para a pesquisa do último elemento armazenado no vetor.
-
-**Atividade 9** 
-
-Implementar os métodos de ordenação discutidos em aula, utilizar o TAD Vetor armazenando números inteiros, gerar um vetor aleatório com 1.000 elementos e submeter o mesmo vetor aos métodos de ordenação, computando o tempo da execução.
 
 # Exercícios Práticos P1
 **Lista**
@@ -50,6 +43,28 @@ vetores.
 
 **Questão 3:** Implemente, em Linguagem Java, um método que calcula o enésimo termo
 da série de Fibonacci.
+
+
+# Marco 2
+
+**Atividade 08**
+
+Implementar o método de pesquisa binária com laço de repetição e outro método usando recursão, utilizar o TAD Vetor armazenando números inteiros e gerar um vetor aleatório com 1.000 elementos e submeta o mesmo vetor a ambos os métodos, computando o tempo para a pesquisa do último elemento armazenado no vetor.
+
+**Atividade 9** 
+
+Implementar os métodos de ordenação discutidos em aula, utilizar o TAD Vetor armazenando números inteiros, gerar um vetor aleatório com 1.000 elementos e submeter o mesmo vetor aos métodos de ordenação, computando o tempo da execução.
+
+# Trabalho 2
+
+**Palíndromo**
+
+Uma palavra é uma palíndromo se a seqüência de letras que a forma é a mesma seja ela lida da esquerda para a direita ou vice-versa. Exemplos: arara. Escreva um método palíndromo que, dada uma palavra, retorne true caso a palavra seja uma palíndromo, e false caso contrário. Use uma pilha para tal (representada como vetor). Implemente um método de impressão para mostrar o estado da pilha.
+
+**Pilha de Alunos**
+
+Implemente os métodos size() e isEmpty() e top() para uma pilha de alunos. Em seguida, utilize uma fila de alunos com LSE e inverta a ordem dos alunos da fila usando a pilha que você implementou e implemente um método de impressão para mostrar o estado da pilha.
+
 
 
 
