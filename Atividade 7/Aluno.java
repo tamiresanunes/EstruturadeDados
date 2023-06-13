@@ -46,6 +46,11 @@ public class Aluno{
         return "Aluno [nome=" + nome + ", nota=" + nota + ", idade=" + idade + "]";
     }
 
+
+    public String getMatricula() {
+        return null;
+    }
+
     
 
 
