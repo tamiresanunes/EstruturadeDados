@@ -1,20 +1,29 @@
-
-import java.util.Random;
-
+package Atividade 13;
 public class Main {
     public static void main(String[] args) {
-        Random rand = new Random();
-        MapaVet mapvet = new MapaVet();
+        MapaVet mapa = new MapaVet();
 
-        String[] string = {"Anna", "Brena", "Mateus", "Caio"};
-        int nome = rand.nextInt(string.length);
+        // Criando alguns alunos
+        Aluno aluno1 = new Aluno("Camila",26 , "979");
+        Aluno aluno2 = new Aluno("Mateus", 20, "963");
+        Aluno aluno3 = new Aluno("Mariana", 18, "147");
 
-        int matricula = String.valueOf(rand.nextInt(10000));
-        for(int i = 0; i <= 10000; i++){
-            mapvet.put(new Aluno(string[nome], 10, matricula));
+        // Inserindo alunos no mapa
+        mapa.put(aluno1);
+        mapa.put(aluno2);
+        mapa.put(aluno3);
+
+        // Obtendo um aluno pelo número de matrícula
+        Aluno alunoEncontrado = mapa.get("963");
+        if (alunoEncontrado != null) {
+            System.out.println("Aluno encontrado: " + alunoEncontrado.getNome());
+        } else {
+            System.out.println("O aluno não foi encontrado.");
         }
 
-        mapvet.imprime();
+        mapa.remove("979");
+
+        mapa.imprime();
     }
-}
     
+}
