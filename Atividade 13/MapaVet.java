@@ -20,7 +20,7 @@ public class MapaVet {
         int sondagem = 0;
         while(sondagem < vetor.length){
             hash = (hash(key) + sondagem) % vetor.length;
-            System.out.println("teste");
+            System.out.println("Testando");
             if(vetor[hash] == null || vetor[hash].getMatricula() == key){
                 this.vetor[hash] = value;
                 numElements++;
